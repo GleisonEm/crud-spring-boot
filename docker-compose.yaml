@@ -1,0 +1,7 @@
+version: '3.6'
+
+services:
+  crudWithSolid:
+    image: apache/beam_java17_sdk
+    ports:
+      - '8086:8086'
